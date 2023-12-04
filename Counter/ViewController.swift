@@ -33,8 +33,6 @@ class ViewController: UIViewController {
         UILogs.text = entry.fullMessage + UILogs.text
     }
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
