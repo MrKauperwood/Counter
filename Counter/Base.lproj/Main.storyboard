@@ -87,13 +87,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="UIClearButton" destination="2GB-D8-lbS" id="XKS-pg-8Qb"/>
-                        <outlet property="UICounterValue" destination="UCg-3O-QHX" id="yCG-9S-XOz"/>
-                        <outlet property="UIHistoryTitle" destination="fGA-si-FlQ" id="Fra-1B-QqJ"/>
-                        <outlet property="UILogs" destination="vpe-Jn-LHk" id="BNV-JG-j0I"/>
-                        <outlet property="UIMinusButton" destination="8hg-cn-g8h" id="w6g-na-yR9"/>
-                        <outlet property="UIPlusButton" destination="zW0-W0-0OW" id="he4-QE-JSE"/>
-                        <outlet property="UITextForCounter" destination="r7A-WB-rm1" id="CSm-54-KsN"/>
+                        <outlet property="clearButton" destination="2GB-D8-lbS" id="XKS-pg-8Qb"/>
+                        <outlet property="counterValueLabel" destination="UCg-3O-QHX" id="yCG-9S-XOz"/>
+                        <outlet property="historyTextView" destination="vpe-Jn-LHk" id="BNV-JG-j0I"/>
+                        <outlet property="minusButton" destination="8hg-cn-g8h" id="w6g-na-yR9"/>
+                        <outlet property="plusButton" destination="zW0-W0-0OW" id="he4-QE-JSE"/>
+                        <outlet property="titleCounterLabel" destination="r7A-WB-rm1" id="CSm-54-KsN"/>
+                        <outlet property="titleForHistoryTextView" destination="fGA-si-FlQ" id="Fra-1B-QqJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
